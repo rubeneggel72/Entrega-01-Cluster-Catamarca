@@ -17,7 +17,15 @@ let transport = nodemailer.createTransport({
     }
 });
 
-
+//   service: 'gmail',
+//             host: 'smtp.gmail.email',
+//             port: 587,
+//             secure: false,
+//             requireTLS: true,
+//             auth: {
+//                 user: 'rubenalbertoeggel@gmail.com',
+//                 pass: '*********'
+//             }
 
 // generar HTML
 const generarHTML = (archivo, opciones = {}) => {
